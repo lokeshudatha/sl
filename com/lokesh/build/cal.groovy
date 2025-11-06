@@ -1,16 +1,8 @@
-package.com.lokesh.build.cal 
+package com.udtha.build
 
 class Cal{
-    def jenkins 
-    Cal(jenkins) {
-        this.jenkins = jenkins
+    def jenkins
+    Cal(jenkins){
+        this.jenkins = jenkins 
     }
 }
-
-
-
-
-@Library("com.lokesh.build.final")
-pipeline(
-    myapp: "Udathaapp"
-)
